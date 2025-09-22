@@ -24,7 +24,6 @@ function doCalculation(array) {
         }
     }
     console.log ('Mayor es el: '+ mayor )
-    mayor = 0;
 
     for (let i = 0; i < array.length; i++) {
         if (array[i] < menor) {
@@ -32,7 +31,6 @@ function doCalculation(array) {
         }
     }
     console.log ('Menor es el: '+ menor )
-    menor = Infinity;
 
 }
 
