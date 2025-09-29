@@ -3,7 +3,7 @@ function karateChop(target, array) {
     let high = array.length - 1;
   
     while (low <= high) {
-      let mid = (low + high) / 2;
+      let mid = Math.floor((low + high) / 2);
   
       if (array[mid] === target) {
         return mid;
